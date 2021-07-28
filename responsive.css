@@ -1,0 +1,39 @@
+/* navbar */
+@media (max-width: 575.98px) {
+  .login-btn {
+    margin-left: 0;
+  }
+}
+/* hero section */
+
+@media (max-width: 575.98px) {
+  .h-title {
+    font-size: 30px;
+  }
+  .h-subtitle {
+    font-size: 14px;
+    width: 100%;
+  }
+  .hero-img img {
+    margin-top: 80px;
+  }
+}
+/* Feature section */
+@media (max-width: 575.98px) {
+  .f-bikes {
+    margin-top: 20px;
+  }
+  .feature-img {
+    margin-top: 70px;
+  }
+}
+/* Latest News */
+@media (max-width: 575.98px) {
+  .news-card {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .news-card:last-child {
+    margin-bottom: 0;
+  }
+}

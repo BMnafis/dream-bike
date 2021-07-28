@@ -19,7 +19,7 @@ a:hover {
 .mybtn {
   display: inline-block;
   background-color: #e76f51;
-  padding: 9px 25px;
+  padding: 8px 30px;
   font-size: 15px;
   font-weight: 500;
   border-radius: 5px;
@@ -31,4 +31,53 @@ a:hover {
 /* Header section */
 .header-section {
   background-color: #264653;
+}
+.login-btn {
+  margin-left: 100px;
+}
+.h-pre-title {
+  font-size: 14px;
+  top: 10px;
+}
+.h-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+.h-subtitle {
+  font-size: 16px;
+  width: 85%;
+}
+/* Features section */
+.feature-subtitle {
+  display: inline-block;
+  color: #e76f51;
+  font-size: 14px;
+  top: -5px;
+}
+.feature-subtitle::after {
+  content: "";
+  display: block;
+  width: 58px;
+  border-bottom: 1px solid #e76f51;
+  margin: auto;
+}
+.feature-img {
+  max-width: 288px;
+  margin: auto;
+}
+.f-bikes {
+  margin-top: 120px;
+}
+.g-scale img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+/* Latest News */
+.latest-news {
+  margin: 100px 0;
+}
+.news-description {
+  font-size: 15px;
+  line-height: 30px;
+  color: #6c6c6c;
 }
