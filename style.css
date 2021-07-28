@@ -81,3 +81,47 @@ a:hover {
   line-height: 30px;
   color: #6c6c6c;
 }
+/* Client Section */
+.client-t-style {
+  color: #e76f51;
+}
+.client-item-wrap {
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid rgb(233, 233, 233);
+}
+.client-img img {
+  display: block;
+  margin: auto;
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+}
+.client-text p {
+  color: #6c6c6c;
+  font-size: 15px;
+  line-height: 30px;
+}
+.client-rating i {
+  color: #e76f51;
+}
+.name,
+.designation {
+  font-weight: 600;
+}
+/* FAQ Section */
+.faq-section {
+  margin: 150px 0;
+}
+.faq-img-wrap {
+  width: 90%;
+}
+.faq-description {
+  color: #6c6c6c;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+.faq-title {
+  margin-bottom: 100px;
+}

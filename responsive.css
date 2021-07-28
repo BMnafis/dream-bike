@@ -37,3 +37,9 @@
     margin-bottom: 0;
   }
 }
+/* Client Section */
+@media (max-width: 575.98px) {
+  .client-item-wrap {
+    margin-bottom: 40px;
+  }
+}
