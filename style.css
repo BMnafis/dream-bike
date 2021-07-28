@@ -1,0 +1,14 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+/* Common css */
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: #000;
+}
