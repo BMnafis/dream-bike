@@ -10,5 +10,25 @@ body {
   font-family: "Poppins", sans-serif;
 }
 a {
-  color: #000;
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+.mybtn {
+  display: inline-block;
+  background-color: #e76f51;
+  padding: 9px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.mybtn:hover {
+  background-color: #e45734;
+}
+/* Header section */
+.header-section {
+  background-color: #264653;
 }
