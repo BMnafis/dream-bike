@@ -30,11 +30,7 @@
 /* Latest News */
 @media (max-width: 575.98px) {
   .news-card {
-    margin: auto;
-    margin-bottom: 30px;
-  }
-  .news-card:last-child {
-    margin-bottom: 0;
+    margin: 20px auto;
   }
 }
 /* Client Section */
