@@ -125,6 +125,33 @@ a:hover {
 .faq-title {
   margin-bottom: 100px;
 }
+/* Counter section */
+.counter {
+  background-color: #242424;
+  padding: 100px 0;
+}
+.counter-icon i {
+  color: #dd522f;
+  font-size: 90px;
+}
+/* Contact Us section */
+.contact {
+  margin: 130px 0;
+}
+.contact-head {
+  padding: 20px 0;
+}
+.form-body span {
+  font-size: 22px;
+  font-weight: 500;
+}
+.submit-box input {
+  background-color: #e76f51;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 10px;
+  width: 150px;
+}
 /* Footer section */
 .footer-section {
   background-color: #0b0d17;
