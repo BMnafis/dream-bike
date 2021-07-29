@@ -47,6 +47,91 @@ a:hover {
   font-size: 16px;
   width: 85%;
 }
+/* Animation */
+.h-title {
+  animation: header-animation 2s ease-in-out 1;
+}
+@keyframes header-animation {
+  0% {
+    opacity: 0;
+    transform: translate(-1500px, 0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(15px, 0px);
+  }
+  80% {
+    transform: translate(-15px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+.h-pre-title {
+  animation: header-animation-2 2s ease-in-out 1;
+}
+@keyframes header-animation-2 {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -1500px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(0px, 15px);
+  }
+  80% {
+    transform: translate(0px, -15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+.h-subtitle {
+  animation: header-animation-3 2.3s ease-in-out 1;
+}
+@keyframes header-animation-3 {
+  0% {
+    opacity: 0;
+    transform: translate(-1500px, 0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(15px, 0px);
+  }
+  80% {
+    transform: translate(-15px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+.purchase-anim {
+  animation: header-animation-4 2s ease-in-out 1;
+}
+@keyframes header-animation-4 {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 1500px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(0px, -15px);
+  }
+  80% {
+    transform: translate(0px, 15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
 /* Features section */
 .feature-subtitle {
   display: inline-block;
